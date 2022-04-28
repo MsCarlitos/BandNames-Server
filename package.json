@@ -1,0 +1,20 @@
+{
+  "name": "socket-react",
+  "version": "1.0.0",
+  "description": "Uso de Socket.io de manera mas basica",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Alberto Mendoza Contreras",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "socket.io": "^4.5.0",
+    "uuid": "^8.3.2"
+  }
+}
